@@ -1,17 +1,30 @@
 {
   "name": "team-pastel-colors",
-  "displayName": "team-pastel-colors",
-  "description": "Pastel colors that are inspired by what microsoft teams uses in dark mode when sending a code block to others. Inspired by Monokai Pro, all colors are original. (currently only python is supported)",
+  "displayName": "Team Pastel Colors Theme",
+  "description": "Pastel colors that are inspired by what microsoft teams uses in dark mode when sending a code block to others. Inspired by Monokai Pro, all colors are original.  Optimized for Python with broad language support.",
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.100.0"
+    "vscode": "^1.99.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/sahilmtayade/pastel-colors-theme.git"
   },
+  "galleryBanner": {
+    "color": "#1a1313",
+    "theme": "dark"
+  },
   "categories": [
     "Themes"
+  ],
+  "icon": "./images/team-pastel-icon.png",
+  "publisher": "zumba29",
+  "license": "MIT",
+  "keywords": [
+    "theme",
+    "dark",
+    "color theme",
+    "pastel colors"
   ],
   "contributes": {
     "themes": [
